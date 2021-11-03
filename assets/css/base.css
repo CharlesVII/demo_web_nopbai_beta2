@@ -2,6 +2,7 @@
     --white-Color: #fff;
     --black-Color: #000;
     --text-Color: #333;
+    --inv:var(#000);
 }
 
 *{

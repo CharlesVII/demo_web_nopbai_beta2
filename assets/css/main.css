@@ -1,11 +1,14 @@
 .header{
-    height: 100px;
+    height: 60px;
     background-color: #ffffff; 
-    margin: auto;
+    margin: auto;   
 }
+
 .header__navbar{
     display: flex;
     margin-top: 30px;
+    
+    
 }
 .header__navbar-list{
     list-style: none;
@@ -13,10 +16,11 @@
     justify-content: center;
     padding-left: 0;
     margin: auto;
+    
 }
 
 .header__navbar-list-show{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 20px 20px;
     color: var(--text-Color);
     margin: auto;
@@ -24,7 +28,7 @@
 
 .header__navbar-icon{
     font-size: 5rem;
-
+    color: #101864;
 }
 
 .header__navbar-list-show:hover{
@@ -34,7 +38,9 @@
 
 .header__navbar-list-show-strong{
     font-weight: 800;
-    font-size: 2.4rem;
+    font-size: 3rem;
+    text-decoration: none;
+    color: #101864;
 }
 
 .header__navbar-list-show-gachngang{
@@ -43,8 +49,14 @@
     background-color:#101864;
     padding: 20px 0;
     border-radius: 50px;
+    opacity: 1;
 }
 
+.caidatthea{
+    text-decoration: none;
+    color: #101864;
+
+}
 
 
 .container-part1{
@@ -53,14 +65,164 @@
     width: auto;
     height: 55rem;
     background-size: auto 100%;
-    background-position-x: 90%;
+    background-position-x: 97%;
     display: flex;
 
 
     
 }
 .containet-text{
-    color: darkcyan;
+    color: darkslategray;
+    font-weight: 700;
     font-size: 16rem;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 7rem;
+    padding-left: 5rem;
+}
+.containet{
+    display: flex;
+    flex-direction: row;
+}
+
+.thanhvien{
+    color:#101864;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 2rem;
+
+}
+
+.bosungthanhvien{
+    padding-top: 12rem;
+}
+
+.boxthanhvien{
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-around;
+    height: 500px;
+    margin-top: 0;
+}
+
+.tungthanhvien{
+
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: groove #101864;
+    border-radius: 50px;
+    padding: 3rem 2rem;
+    
+}
+
+.tungthanhvien2{
+    height: 500px;
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    border: groove #101864;
+    border-radius: 50px;
+    padding: 3rem 2rem
+    
+}
+
+.hinhdaidien{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.tenthanhvin{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: auto;
+}
+
+.projecthomework{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 700px;
+}
+
+button{
+    background:#55579e;
+    border:none;
+    position:relative;
+    transition:800ms ease all;
+    outline:none;
+    font:500 16px "Roboto",sans-serif;
+    text-transform:uppercase;
+    height: 100px;
+    width: 900px;
+    margin: auto;
+    
+}
+
+    
+button a{
+    color:#fff!important;
+    display:block;
+
+}
+
+button:hover a{
+    color:#55579e!important;
+    text-decoration:none!important
+}
+button:hover{background:transparent}
+
+button:before,button:after{
+    content:'';position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background:#55579e;
+    transition:900ms ease all}
+
+button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0}
+
+button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all
+}
+
+.lienketfb{
+    cursor: pointer;
+}
+
+.fa-facebook-square:hover{
+    opacity: 0.6;
+}
+.fa-facebook-square{
+    color: black;
+    font-size: 3rem;
+    transition: opacity 0.3s ease;
+}
+
+.linkbaitap{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.footer{
+    padding-top: 2.5rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.textfooter{
+ font-size: 1.8rem;
+ font-weight: 600;
 }
